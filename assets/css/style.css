@@ -212,11 +212,21 @@ nav a:hover {
     padding: 10px;
     border-bottom: 1px solid #d1cbcb;
     flex-direction: column;
+    width: 100%;
     
   
 }
-img {
+.contact {
     width: 20px;
     height: 20px;
     
+}
+
+article .news-data {
+    direction: flex;
+}
+
+article .news-posted-at {
+    background-color: 2b4c99;
+    color: #FFFF;
 }

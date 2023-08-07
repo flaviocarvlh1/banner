@@ -187,6 +187,7 @@ nav a:hover {
     height: 3px;
     background-color: #36a9e1;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .widget-body {
     display: flex;
@@ -222,11 +223,144 @@ nav a:hover {
     
 }
 
+article {
+    flex: 1;
+    flex-wrap: wrap;
+    min-width: 300px;
+    margin: 10px;
+}
+
+article a {
+    text-decoration: none;
+}
+
 article .news-data {
-    direction: flex;
+    display: flex;
 }
 
 article .news-posted-at {
-    background-color: 2b4c99;
+   
+    background-color: #2b4c99;
     color: #FFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news-comments {
+    background-color: #39aae1;
+    color: #FFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+article .news-thumbmail {
+    margin-top: 35px;
+}
+
+article .news-thumbmail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news-title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 23px;
+    color: #000;
+}
+
+article .news-resume {
+    font-size: 14px;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex: 1;
+
+}
+
+.fm1,
+.fm2,
+.fm3 {
+    flex: 1;   
+    padding: 20px;
+    color: #FFF;
+}
+
+.footer-menu a {
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.fm1 {
+    background-color:#39aae1;
+}
+.fm2 {
+    background-color: #0079c7;
+
+}
+.fm3  {
+    background-color: #2b4c99;
+    
+    
+}
+
+.flexcolumn {
+    flex-direction: column;
+}
+
+.footer-area {
+    display: flex;  
+}
+
+.footer-areaitem {
+    flex: 1;
+    color: #FFF;
+}
+
+footer .widget-title-text {
+    color: #FFF;
+}
+
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.footer-area p, .adress {
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.adress {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.adress a {
+    text-decoration: none;
+    color: #5c5c5c;
+   
+}
+
+.logotipos a {
+    display: flex;
+    width: 80px;
+    height: 80px;
 }

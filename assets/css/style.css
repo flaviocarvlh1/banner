@@ -336,27 +336,45 @@ footer .widget-title-text {
     border-top: 1px solid #2c2c2c;
     height: 40px;
     line-height: 40px;
-    color: #5c5c5c;
+    color: #909090;
     font-size: 12px;
     margin-top: 30px;
 }
 
 .footer-area p, .adress {
     font-size: 12px;
-    color: #5c5c5c;
+    color: #909090;
 }
 
 .adress {
     margin: 0px;
     padding: 0px;
+    line-height: 0%;
     
 }
 
 
 .adress a {
     text-decoration: none;
-    color: #5c5c5c;
+    color: #fff;
    
+}
+
+.posts {
+    margin-top: 10px;
+    
+}
+.posts a {
+   
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    
+}
+
+.posts p {
+    color: #56b0ec;
+    line-height: 0%;
 }
 
 .logotipos a {

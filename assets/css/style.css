@@ -344,12 +344,14 @@ footer .widget-title-text {
 .footer-area p, .adress {
     font-size: 12px;
     color: #909090;
+   
+ 
 }
 
 .adress {
-    margin: 0px;
-    padding: 0px;
-    line-height: 0%;
+    line-height: 5px;
+    
+   
     
 }
 
@@ -381,4 +383,89 @@ footer .widget-title-text {
     display: flex;
     width: 80px;
     height: 80px;
+}
+
+.tweet {
+    color: #FFF;
+    font-size: 14px;
+}
+.tweets, a {
+    text-decoration: none;
+    color: #909090;
+    font-size: 12px;
+    
+}
+
+.menuMobile {
+    display: none;
+    height: 40px;
+    width: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mmline {
+    height: 3px;
+    background-color: #36a9e1;
+}
+
+@media (max-width: 600px) {
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    
+    .container {
+        flex-direction: column;
+
+    }
+
+    .section, .aside {
+        padding: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-area {
+        flex-direction: column;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFF;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
 }
